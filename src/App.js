@@ -8,6 +8,11 @@ import ActionSection from './Components/ActionSection';
 import Skills from './Components/Skills';
 import Facts from './Components/Facts';
 import Portfolio from './Components/Portfolio';
+import Clients from './Components/Clients';
+import Testimonials from './Components/Testimonials';
+import Team from './Components/Team';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -22,6 +27,11 @@ const App = () => {
         <Skills />
         <Facts />
         <Portfolio />
+        <Clients />
+        <Testimonials />
+        <Team />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );

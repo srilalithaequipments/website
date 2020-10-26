@@ -22,7 +22,7 @@ const Intro = () => {
                         </div>
 
                         <div className="carousel-item">
-                            <div className="carousel-background"><img src="img/intro-carousel/demag-ac-250.jpg" alt="" /></div>
+                            <div className="carousel-background"><img src="./assets/img/intro-carousel/demag-ac-250.jpg" alt="" /></div>
                             <div className="carousel-container">
                                 <div className="carousel-content">
                                     <h2>At vero eos et accusamus</h2>
@@ -33,7 +33,7 @@ const Intro = () => {
                         </div>
 
                         <div className="carousel-item">
-                            <div className="carousel-background"><img src="img/intro-carousel/demag-ac-250.jpg" alt="" /></div>
+                            <div className="carousel-background"><img src="./assets/img/intro-carousel/demag-ac-250.jpg" alt="" /></div>
                             <div className="carousel-container">
                                 <div className="carousel-content">
                                     <h2>Temporibus autem quibusdam</h2>
@@ -44,7 +44,7 @@ const Intro = () => {
                         </div>
 
                         <div className="carousel-item">
-                            <div className="carousel-background"><img src="img/intro-carousel/demag-ac-300.webp" alt="" /></div>
+                            <div className="carousel-background"><img src="./assets/img/intro-carousel/demag-ac-300.webp" alt="" /></div>
                             <div className="carousel-container">
                                 <div className="carousel-content">
                                     <h2>Nam libero tempore</h2>
@@ -55,7 +55,7 @@ const Intro = () => {
                         </div>
 
                         <div className="carousel-item">
-                            <div className="carousel-background"><img src="img/intro-carousel/5.jpg" alt="" /></div>
+                            <div className="carousel-background"><img src="./assets/img/intro-carousel/5.jpg" alt="" /></div>
                             <div className="carousel-container">
                                 <div className="carousel-content">
                                     <h2>Magnam aliquam quaerat</h2>
