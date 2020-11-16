@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutUsCard from './AboutUsCard';
 
 const Services = () => {
     return (
@@ -7,44 +8,18 @@ const Services = () => {
 
                 <header className="section-header wow fadeInUp">
                     <h3>Services</h3>
-                    <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
+                    <p>
+                        We are a prominent provider of hydraulic cranes, all-terrain cranes, hydraulic telescopic cranes, mobile cranes, and a lot more. These cranes are efficient in lifting materials and performing on and off-road operations. We provide our cranes for pan-India projects.
+                    </p>
                 </header>
-
-                <div className="row">
-
-                    <div className="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <div className="icon"><i className="ion-ios-analytics-outline"></i></div>
-                        <h4 className="title"><a href="">Lorem Ipsum</a></h4>
-                        <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                    </div>
-                    <div className="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <div className="icon"><i className="ion-ios-bookmarks-outline"></i></div>
-                        <h4 className="title"><a href="">Dolor Sitema</a></h4>
-                        <p className="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-                    </div>
-                    <div className="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <div className="icon"><i className="ion-ios-paper-outline"></i></div>
-                        <h4 className="title"><a href="">Sed ut perspiciatis</a></h4>
-                        <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                    </div>
-                    <div className="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <div className="icon"><i className="ion-ios-speedometer-outline"></i></div>
-                        <h4 className="title"><a href="">Magni Dolores</a></h4>
-                        <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                    </div>
-                    <div className="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <div className="icon"><i className="ion-ios-barcode-outline"></i></div>
-                        <h4 className="title"><a href="">Nemo Enim</a></h4>
-                        <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                    </div>
-                    <div className="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <div className="icon"><i className="ion-ios-people-outline"></i></div>
-                        <h4 className="title"><a href="">Eiusmod Tempor</a></h4>
-                        <p className="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-                    </div>
-
+                <div className="row about-cols">
+                    <AboutUsCard image_name="quality.png" title="Quality of Service"
+                        content="We always deliver the highest quality of service with zero equipment breakdown and quick back-up. We are committed to provide round the clock crane services at affordable prices." />
+                    <AboutUsCard image_name="about-plan.jpg" title="Innovation"
+                        content="Our company is constantly upgrading its fleet of equipment to stay ahead of the market and to provide state-of-art machines for your diverse needs." />
+                    <AboutUsCard image_name="safety.png" title="Safety"
+                        content="At Shri Lalitha Equipments, safety comes first. Our staff and our clients are the most valuable asset and their safety takes precedence over everything else. We take utmost precautions at all our sites of work." />
                 </div>
-
             </div>
         </section>
     );

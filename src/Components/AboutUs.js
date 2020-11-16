@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const AboutUs = () => {
     return (
         <section id="about">
@@ -7,46 +8,9 @@ const AboutUs = () => {
                 <header className="section-header">
                     <h3>About Us</h3>
                     <p>
-                        Sri Lalitha Equipments is a renowned crane rental company involved in offering cranes on hire in Central India. We are committed to provide reliable crane services at affordable prices. We are a prominent provider of hydraulic cranes, all terrain cranes, hydraulic telescopic cranes, mobile cranes, and a lot more. These cranes are efficient in lifting materials and performing on and off road operations.
+                        Based out of Central India, our company was established in the year 2004 and has grown steadily over past several years. We offer our reliable machines on rent for various projects all over India. It is our primary goal to consistently provide our clients with economic rentals, efficient service and good quality equipment with quick back-up. We pride ourselves on our hardworking, dedicated and experienced employees who work flexibly to get our clients’ work done in a timely manner and deliver full customer satisfaction. Our crane services have been successfully and regularly utilized in various projects such as in power plants, cement plants, collieries, metro projects, bridge constructions, stadium constructions, pre-cast/iron gutter erections and in steel plants. Our growing clientele is a testament to the quality of service provide by us.
                     </p>
                 </header>
-                <div className="row about-cols">
-                    <div className="col-md-4 wow fadeInUp">
-                        <div className="about-col">
-                            <div className="img">
-                                <img src="./assets/img/about-mission.jpg" alt="" className="img-fluid"/>
-                                <div className="icon"><i className="ion-ios-speedometer-outline"></i></div>
-                            </div>
-                            <h2 className="title"><a href="#">Our Mission</a></h2>
-                            <p>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div className="about-col">
-                            <div className="img">
-                                <img src="./assets/img/about-plan.jpg" alt="" className="img-fluid"/>
-                                <div className="icon"><i className="ion-ios-list-outline"></i></div>
-                            </div>
-                            <h2 className="title"><a href="#">Our Plan</a></h2>
-                            <p>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div className="about-col">
-                            <div className="img">
-                                <img src="./assets/img/about-vision.jpg" alt="" className="img-fluid"/>
-                                <div className="icon"><i className="ion-ios-eye-outline"></i></div>
-                            </div>
-                            <h2 className="title"><a href="#">Our Vision</a></h2>
-                            <p>
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     );

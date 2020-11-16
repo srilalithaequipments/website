@@ -29,9 +29,9 @@ const Facts = () => {
                         <p>Hard Workers</p>
                     </div>
                 </div>
-                <div className="facts-img">
+                {/* <div className="facts-img">
                     <img src="./assets/img/facts-img.png" alt="" className="img-fluid"/>
-                </div>
+                </div> */}
             </div>
         </section>
     );

@@ -6,7 +6,7 @@ const Team = () => {
             <div className="container">
                 <div className="section-header wow fadeInUp">
                 <h3>Team</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                {/* <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> */}
                 </div>
 
                 <div className="row">
