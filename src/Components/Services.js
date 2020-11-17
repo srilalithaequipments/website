@@ -5,7 +5,6 @@ const Services = () => {
     return (
         <section id="services">
             <div className="container">
-
                 <header className="section-header wow fadeInUp">
                     <h3>Services</h3>
                     <p>
