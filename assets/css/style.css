@@ -105,12 +105,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  letter-spacing: 3px;
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #fff;
   padding-left: 10px;
+  font-size: 19px;
   border-left: 4px solid #18d26e;
 }
 
@@ -187,14 +187,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro p {
-  width: 80%;
-  margin: 0 auto 30px auto;
+  width: 100%;
+  font-size: 22px;
+  margin: 0 auto 10px auto;
   color: #fff;
 }
 
 @media (min-width: 1024px) {
   #intro p {
     width: 60%;
+    font-size: 16px;
   }
 }
 
@@ -523,7 +525,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 15px;
 }
 
-.section-header h3::before {
+.section-header h3::before  {
   content: '';
   position: absolute;
   display: block;
@@ -546,7 +548,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-header p {
-  text-align: center;
+  text-align: justify;
   padding-bottom: 30px;
   color: #333;
 }
@@ -726,6 +728,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .title a {
   color: #111;
+  font-size: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#services .title a::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+#services .title a::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #18d26e;
+  bottom: 0;
+  left: calc(50% - 20px);
 }
 
 #services .box:hover .title a {
@@ -847,6 +874,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #111;
+  text-align: center !important;
 }
 
 #facts .facts-img {
@@ -1216,7 +1244,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #333;
 }
 
 #contact .contact-info a {
@@ -1324,6 +1352,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
   letter-spacing: 3px;
   border-left: 4px solid #18d26e;
+  text-transform: uppercase;
 }
 
 #footer .footer-top .footer-info p {
