@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro h2 {
-  color: #333;
+  color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -190,6 +190,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   font-size: 22px;
   margin: 0 auto 10px auto;
+  color: #fff;
+}
+
+#intro h3 {  
   color: #fff;
 }
 
