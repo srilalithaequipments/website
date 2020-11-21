@@ -57,7 +57,7 @@ const Footer = () => {
 
             <div className="container">
             <div className="copyright">
-                &copy; Copyright <strong>Sri Lalitha Equipments</strong>. All Rights Reserved
+                &copy; Copyright <strong>Shri Lalitha Equipments</strong>. All Rights Reserved
             </div>
             </div>
         </footer>

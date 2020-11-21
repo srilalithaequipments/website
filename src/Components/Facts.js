@@ -6,7 +6,6 @@ const Facts = () => {
             <div className="container">
                 <header className="section-header">
                     <h3>Facts</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
                 </header>
                 <div className="row counters">
                     <div className="col-lg-3 col-6 text-center">

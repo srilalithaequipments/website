@@ -7,7 +7,6 @@ const Contact = () => {
 
                 <div className="section-header">
                     <h3>Contact Us</h3>
-                    {/* <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> */}
                 </div>
 
                 <div className="row contact-info">

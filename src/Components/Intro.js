@@ -9,11 +9,11 @@ const Intro = () => {
                     <div className="carousel-inner" role="listbox">
 
                         <div className="carousel-item active">
-                            <div className="carousel-background"><img src="./assets/img/intro-carousel/demag-ac-300.webp" alt="" /></div>
+                            <div className="carousel-background"><img src={ process.env.PUBLIC_URL + "/assets/img/intro-carousel/demag-ac-300.webp" } alt="" /></div>
                             <div className="carousel-container">
                                 <div className="carousel-content">
-                                    <h2>Welcome</h2>
-                                    <p>We have a crane for your every need.</p>
+                                    <h2 className="animate__animated animate__bounceInDown animate__slow">Welcome</h2>
+                                    <h3 className="animate__animated animate__fadeInUp animate__slow animate__delay-2s">We have a crane for your every need.</h3>
                                 </div>
                             </div>
                         </div>
