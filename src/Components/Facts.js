@@ -14,7 +14,7 @@ const Facts = () => {
                     </div>
 
                     <div className="col-lg-6 col-6 text-center">
-                        <span data-toggle="counter-up">130</span>
+                        <span data-toggle="counter-up">100</span>
                         <p>Projects</p>
                     </div>
                 </div>
