@@ -1018,8 +1018,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item figure .link-preview {
-  left: calc(50% - 38px);
-  top: calc(50% - 18px);
+  left: calc(50%);
+  top: calc(50%);
 }
 
 #portfolio .portfolio-item figure .link-details {
