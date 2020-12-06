@@ -6,8 +6,10 @@ const NavBar = () => {
             <div className="container-fluid">
 
                 <div id="logo" className="pull-left">
-                    <h1><a href="#intro" className="scrollto">SHRI LALITHA EQUIPMENTS</a></h1>
-                    {/* <a href="#intro"><img src="img/logo.png" alt="" title="" /></a> */}
+                    <h1>
+                        {/* <img src="/assets/img/logo.png" alt="logo" width="3%" height="3%" /> */}
+                        <a href="#intro" className="scrollto">SHRI LALITHA EQUIPMENTS</a>
+                    </h1>
                 </div>
 
                 <nav id="nav-menu-container">

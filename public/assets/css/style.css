@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
-  height: 72px;
+  height: 90px;
   transition: all 0.5s;
 }
 
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Brush Script MT", cursive;
   font-weight: 700;
 }
 
@@ -1018,8 +1018,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item figure .link-preview {
-  left: calc(50% - 38px);
-  top: calc(50% - 18px);
+  left: calc(50%);
+  top: calc(50%);
 }
 
 #portfolio .portfolio-item figure .link-details {
@@ -1074,6 +1074,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #clients {
   padding: 60px 0;
+  background: url("../img/portfolio/2.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+#clients::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.75);
+  z-index: 9;
+}
+
+#clients .container {
+  position: relative;
+  z-index: 10;
 }
 
 #clients .clients-carousel .owl-stage {

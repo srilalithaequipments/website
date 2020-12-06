@@ -9,14 +9,15 @@ const Footer = () => {
 
                 <div className="col-lg-4 col-md-6 footer-info">
                     <h3>Shri Laitha Equipments</h3>
+                    <img className="img-fluid text-center" src="/assets/img/logo.png" width="65%" height="65%" alt="logo" />
                 </div>
 
                 <div className="col-lg-4 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
                         <li><i className="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-                        <li><i className="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-                        <li><i className="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
+                        <li><i className="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
+                        <li><i className="ion-ios-arrow-right"></i> <a href="#services">Services</a></li>
                     </ul>
                 </div>
 
