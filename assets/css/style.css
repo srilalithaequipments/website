@@ -99,16 +99,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 {
-  font-size: 28px;
+  font-size: 35px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-family: "Brush Script MT", cursive;
-  color: #1d7c21;
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
+  color: #1d7c21;
   padding-left: 10px;
   font-size: 19px;
   border-left: 4px solid #18d26e;
