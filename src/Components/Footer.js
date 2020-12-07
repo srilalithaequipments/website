@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="row">
 
                 <div className="col-lg-4 col-md-6 footer-info">
-                    <h3>Shri Laitha Equipments</h3>
+                    <h3>Shri Lalitha Equipments</h3>
                     <img className="img-fluid text-center" src="/assets/img/logo.png" width="65%" height="65%" alt="logo" />
                 </div>
 
