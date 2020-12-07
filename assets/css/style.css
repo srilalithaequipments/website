@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #header #logo h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
   #header #logo img {
     max-height: 40px;
