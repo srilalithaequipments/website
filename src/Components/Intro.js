@@ -4,10 +4,10 @@ const Intro = () => {
     return (
         <section id="intro">
             <div className="intro-container">
-                <div id="introCarousel" className="carousel  slide carousel-fade" data-ride="carousel">
+                <div id="introCarousel" className="carousel slide carousel-fade" data-ride="carousel">
                     <div className="carousel-inner" role="listbox">
                         <div className="carousel-item active">
-                            <div className="carousel-background"><img src={ process.env.PUBLIC_URL + "/assets/img/portfolio/3.jpg" } alt="" /></div>
+                            <div className="carousel-background"><img src={ process.env.PUBLIC_URL + "/assets/img/intro-carousel/3.jpg" } alt="" /></div>
                             <div className="carousel-container">
                                 <div className="carousel-content">
                                     <h2 className="animate__animated animate__bounceInDown animate__slow">Welcome</h2>
