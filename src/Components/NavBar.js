@@ -4,14 +4,12 @@ const NavBar = () => {
     return (
         <header id="header">
             <div className="container-fluid">
-
                 <div id="logo" className="pull-left">
                     <h1>
                         {/* <img src="/assets/img/logo.png" alt="logo" width="3%" height="3%" /> */}
                         <a href="#intro" className="scrollto">SHRI LALITHA EQUIPMENTS</a>
                     </h1>
                 </div>
-
                 <nav id="nav-menu-container">
                     <ul className="nav-menu">
                         <li className="menu-active"><a href="#intro">Home</a></li>

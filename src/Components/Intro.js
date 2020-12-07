@@ -16,7 +16,6 @@ const Intro = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
