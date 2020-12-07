@@ -99,17 +99,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 {
-  font-size: 25px;
+  font-size: 19px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-family: "Monsterrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #18d26e;
   padding-left: 10px;
-  font-size: 25px;
+  font-size: 19px;
   border-left: 4px solid #18d26e;
 }
 
