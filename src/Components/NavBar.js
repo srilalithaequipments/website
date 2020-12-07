@@ -11,7 +11,7 @@ const NavBar = () => {
                     </h1>
                 </div>
                 <nav id="nav-menu-container">
-                    <ul className="nav-menu">
+                    <ul className="nav-menu" id="mainMenu">
                         <li className="menu-active"><a href="#intro">Home</a></li>
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#services">Services</a></li>
