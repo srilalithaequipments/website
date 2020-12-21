@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#intro h1 {
+#intro h2 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  #intro h1 {
+  #intro h2 {
     font-size: 28px;
   }
 }
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#intro h2 {  
+#intro h3 {  
   color: #fff;
 }
 
@@ -520,7 +520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 /* Sections Header
 --------------------------------*/
-.section-header h1 {
+.section-header h3 {
   font-size: 32px;
   color: #111;
   text-transform: uppercase;
@@ -530,7 +530,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 15px;
 }
 
-.section-header h1::before  {
+.section-header h3::before  {
   content: '';
   position: absolute;
   display: block;
@@ -541,7 +541,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: calc(50% - 60px);
 }
 
-.section-header h1::after {
+.section-header h3::after {
   content: '';
   position: absolute;
   display: block;
@@ -890,6 +890,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: block;
   color: #18d26e;
+}
+
+span[data-toggle="counter-up"]::after {
+  content: "+";
 }
 
 #facts .counters p {
